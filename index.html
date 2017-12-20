@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kevin's Kwiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "js.js"></script>
+
+</head>
+
+
+<body>
+
+
+<h1>The Best Trivia Game!</h1>
+
+<div id="time-left"></div>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is the capital of Oromia?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Adama"> Adama<br>
+<input type = "radio" id = "mc" name = "question1" value = "Bishoftu"> Bishoftu<br>
+<input type = "radio" id = "mc" name = "question1" value = "Finfinne"> Finfinne<br>
+<input type = "radio" id = "mc" name = "question1" value = "Shashamane"> Shashamane<br>
+
+
+<p class = "questions">What is the largest country in the world?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Russia"> Russia<br>
+<input type = "radio" id = "mc" name = "question2" value = "USA"> USA<br>
+<input type = "radio" id = "mc" name = "question2" value = "China"> China<br>
+<input type = "radio" id = "mc" name = "question2" value = "Canada"> Canada<br>
+
+<p class = "questions">What is the capital of Australia?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Canberra"> Canberra<br>
+<input type = "radio" id = "mc" name = "question3" value = "Sydney"> Sydney<br>
+<input type = "radio" id = "mc" name = "question3" value = "Melbourne"> Melbourne<br>
+<input type = "radio" id = "mc" name = "question3" value = "Paris"> Paris<br>
+
+
+<input id = "button" type = "button" value = "Check for answers!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
