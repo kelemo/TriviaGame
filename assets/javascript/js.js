@@ -57,8 +57,8 @@ function check(){
 		correct++;
 	}
 	
-	var pictures = ["assets/images/win.jpg", "images/soso.jpeg", "images/lost.gif"];
-	var messages = ["Great job!", "It is okay", "You better work harder!"];
+	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+	var messages = ["Great job!", "It is okay", "You better work harder"];
 	var score;
 
 	if (correct == 0) {
